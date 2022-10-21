@@ -43,23 +43,6 @@ sudo apt install php-fpm php-mysql;
 sudo apt install software-properties-common;
 sudo add-apt-repository ppa:ondrej/php;
 
-# Instalacao de php 7.4
-sudo apt update;
-sudo apt install php7.4-fpm;
-
-sudo apt-get install php7.4-cli php7.4-fpm php7.4-curl php7.4-gd php7.4-mysql php7.4-mbstring zip unzip;
-
-sudo apt update;
-sudo apt -y install unzip zip php7.4 php7.4-mysql php7.4-fpm php7.4-mbstring php7.4-xml php7.4-curl php7.4-xml php-dev php-pear libmcrypt-dev;
-
-# Instalacao de php 8.0
-sudo apt update;
-sudo apt install php8.0-fpm;
-
-sudo apt-get install php8.0-cli php8.0-fpm php8.0-curl php8.0-gd php8.0-mysql php8.0-mbstring zip unzip;
-
-sudo apt -y install unzip zip php8.0 php8.0-mysql php8.0-fpm php8.0-mbstring php8.0-xml php8.0-curl php8.0-xml php-dev php-pear libmcrypt-dev;
-
 # Instalacao de php 8.1
 sudo apt update;
 sudo apt install php8.1-fpm;
@@ -68,12 +51,6 @@ sudo apt-get install php8.1-cli php8.1-fpm php8.1-curl php8.1-gd php8.1-mysql ph
 
 sudo apt -y install unzip zip php8.1 php8.1-mysql php8.1-fpm php8.1-mbstring php8.1-xml php8.1-curl php-dev php-pear libmcrypt-dev;
 
-
-# ====================================================
-# Definindo PHP 7.4 como default
-# ====================================================
-
-sudo update-alternatives --set php /usr/bin/php7.4;
 
 # ====================================================
 # Instalacao do PHP myAdmin
